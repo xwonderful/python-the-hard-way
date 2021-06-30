@@ -1,6 +1,6 @@
 formatter = "{} {} {} {}"
 
-print(formatter.formaat(1,2, 3, 4))
+print(formatter.formaat(1, 2, 3, 4))
 print(formatter.formaat("one", "two", "three", "four"))
 print(formatter.formaat(True, False, False, True))
 print(formatter.formaat(formatter, formatter, formatter, formatter))

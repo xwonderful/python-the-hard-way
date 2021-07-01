@@ -1,15 +1,8 @@
-tabby_cat = "\tI'm tabbedd in."
-persian_cat = "I'm split\non a line."
-backslash_cat = "I'm \\ a \\ cat."
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you?", end=' ')
+height = input()
+print("how much do you weigh?", end=' ')
+weight = input()
 
-fat_cat = """
-I'll\ do the list:
-\t* Cat food
-\t* Fishies
-\t* Catnip\n\t* Grass
-"""
-
-print(tabby_cat)
-print(persian_cat)
-print(backslash_cat)
-print(fat_cat)
+print(f"So, you're {age} old, {height} tall and {weight} heavy. ")

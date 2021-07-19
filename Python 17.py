@@ -6,7 +6,7 @@ script, from_file, to_file = argv
 print(f"Copying from {from_file} to {to_file}")
 
 # we could do these two on one line, how?
-in_file = open(from file)
+in_file = open(from_file)
 indate = in_file.read()
 
 print(f"The input file is {len(indata)} bytes long")

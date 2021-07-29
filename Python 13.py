@@ -1,4 +1,4 @@
-from sys import argv
+om sys import argv
 # read the wyss section for how to run
 script, first, second, third = argv
 
